@@ -1,0 +1,120 @@
+﻿  main.cpp
+c:\program files (x86)\intelswtools\openvino_2019.1.148\deployment_tools\inference_engine\include\ie_unicode.hpp(37): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdlib.h(1008): note: see declaration of 'wcstombs'
+c:\program files (x86)\intelswtools\openvino_2019.1.148\deployment_tools\inference_engine\include\ie_unicode.hpp(53): warning C4996: 'mbstowcs': This function or variable may be unsafe. Consider using mbstowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdlib.h(920): note: see declaration of 'mbstowcs'
+c:\program files (x86)\intelswtools\openvino_2019.1.148\deployment_tools\inference_engine\include\ie_layouts.h(127): warning C4251: 'InferenceEngine::BlockingDesc::blockedDims': class 'std::vector<std::size_t,std::allocator<std::_Ty>>' needs to have dll-interface to be used by clients of class 'InferenceEngine::BlockingDesc'
+          with
+          [
+              _Ty=std::size_t
+          ]
+  c:\program files (x86)\intelswtools\openvino_2019.1.148\deployment_tools\inference_engine\include\ie_common.h(26): note: see declaration of 'std::vector<std::size_t,std::allocator<std::_Ty>>'
+          with
+          [
+              _Ty=std::size_t
+          ]
+c:\program files (x86)\intelswtools\openvino_2019.1.148\deployment_tools\inference_engine\include\ie_layouts.h(129): warning C4251: 'InferenceEngine::BlockingDesc::strides': class 'std::vector<std::size_t,std::allocator<std::_Ty>>' needs to have dll-interface to be used by clients of class 'InferenceEngine::BlockingDesc'
+          with
+          [
+              _Ty=std::size_t
+          ]
+  c:\program files (x86)\intelswtools\openvino_2019.1.148\deployment_tools\inference_engine\include\ie_common.h(26): note: see declaration of 'std::vector<std::size_t,std::allocator<std::_Ty>>'
+          with
+          [
+              _Ty=std::size_t
+          ]
+c:\program files (x86)\intelswtools\openvino_2019.1.148\deployment_tools\inference_engine\include\ie_layouts.h(131): warning C4251: 'InferenceEngine::BlockingDesc::order': class 'std::vector<std::size_t,std::allocator<std::_Ty>>' needs to have dll-interface to be used by clients of class 'InferenceEngine::BlockingDesc'
+          with
+          [
+              _Ty=std::size_t
+          ]
+  c:\program files (x86)\intelswtools\openvino_2019.1.148\deployment_tools\inference_engine\include\ie_common.h(26): note: see declaration of 'std::vector<std::size_t,std::allocator<std::_Ty>>'
+          with
+          [
+              _Ty=std::size_t
+          ]
+c:\program files (x86)\intelswtools\openvino_2019.1.148\deployment_tools\inference_engine\include\ie_layouts.h(134): warning C4251: 'InferenceEngine::BlockingDesc::offsetPaddingToData': class 'std::vector<std::size_t,std::allocator<std::_Ty>>' needs to have dll-interface to be used by clients of class 'InferenceEngine::BlockingDesc'
+          with
+          [
+              _Ty=std::size_t
+          ]
+  c:\program files (x86)\intelswtools\openvino_2019.1.148\deployment_tools\inference_engine\include\ie_common.h(26): note: see declaration of 'std::vector<std::size_t,std::allocator<std::_Ty>>'
+          with
+          [
+              _Ty=std::size_t
+          ]
+c:\program files (x86)\intelswtools\openvino_2019.1.148\deployment_tools\inference_engine\include\ie_layouts.h(320): warning C4251: 'InferenceEngine::TensorDesc::dims': class 'std::vector<std::size_t,std::allocator<std::_Ty>>' needs to have dll-interface to be used by clients of class 'InferenceEngine::TensorDesc'
+          with
+          [
+              _Ty=std::size_t
+          ]
+  c:\program files (x86)\intelswtools\openvino_2019.1.148\deployment_tools\inference_engine\include\ie_common.h(26): note: see declaration of 'std::vector<std::size_t,std::allocator<std::_Ty>>'
+          with
+          [
+              _Ty=std::size_t
+          ]
+c:\program files (x86)\intelswtools\openvino_2019.1.148\deployment_tools\inference_engine\include\ie_layouts.h(324): warning C4251: 'InferenceEngine::TensorDesc::precision': class 'InferenceEngine::Precision' needs to have dll-interface to be used by clients of class 'InferenceEngine::TensorDesc'
+  c:\program files (x86)\intelswtools\openvino_2019.1.148\deployment_tools\inference_engine\include\ie_precision.hpp(19): note: see declaration of 'InferenceEngine::Precision'
+c:\program files (x86)\intelswtools\openvino_2019.1.148\deployment_tools\inference_engine\include\ie_layouts.h(346): warning C4251: 'InferenceEngine::LayoutOffsetCounter::_dims': class 'std::vector<std::size_t,std::allocator<std::_Ty>>' needs to have dll-interface to be used by clients of class 'InferenceEngine::LayoutOffsetCounter'
+          with
+          [
+              _Ty=std::size_t
+          ]
+  c:\program files (x86)\intelswtools\openvino_2019.1.148\deployment_tools\inference_engine\include\ie_common.h(26): note: see declaration of 'std::vector<std::size_t,std::allocator<std::_Ty>>'
+          with
+          [
+              _Ty=std::size_t
+          ]
+c:\program files (x86)\intelswtools\openvino_2019.1.148\deployment_tools\inference_engine\include\ie_layouts.h(354): warning C4251: 'InferenceEngine::LayoutOffsetCounter::_muls': class 'std::vector<std::size_t,std::allocator<std::_Ty>>' needs to have dll-interface to be used by clients of class 'InferenceEngine::LayoutOffsetCounter'
+          with
+          [
+              _Ty=std::size_t
+          ]
+  c:\program files (x86)\intelswtools\openvino_2019.1.148\deployment_tools\inference_engine\include\ie_common.h(26): note: see declaration of 'std::vector<std::size_t,std::allocator<std::_Ty>>'
+          with
+          [
+              _Ty=std::size_t
+          ]
+c:\program files (x86)\intelswtools\openvino_2019.1.148\deployment_tools\inference_engine\include\ie_data.h(33): warning C4251: 'InferenceEngine::Data::precision': class 'InferenceEngine::Precision' needs to have dll-interface to be used by clients of class 'InferenceEngine::Data'
+  c:\program files (x86)\intelswtools\openvino_2019.1.148\deployment_tools\inference_engine\include\ie_precision.hpp(19): note: see declaration of 'InferenceEngine::Precision'
+c:\program files (x86)\intelswtools\openvino_2019.1.148\deployment_tools\inference_engine\include\ie_data.h(43): warning C4251: 'InferenceEngine::Data::dims': class 'std::vector<std::size_t,std::allocator<std::_Ty>>' needs to have dll-interface to be used by clients of class 'InferenceEngine::Data'
+          with
+          [
+              _Ty=std::size_t
+          ]
+  c:\program files (x86)\intelswtools\openvino_2019.1.148\deployment_tools\inference_engine\include\ie_common.h(26): note: see declaration of 'std::vector<std::size_t,std::allocator<std::_Ty>>'
+          with
+          [
+              _Ty=std::size_t
+          ]
+c:\program files (x86)\intelswtools\openvino_2019.1.148\deployment_tools\inference_engine\include\ie_data.h(48): warning C4251: 'InferenceEngine::Data::creatorLayer': class 'std::weak_ptr<InferenceEngine::CNNLayer>' needs to have dll-interface to be used by clients of class 'InferenceEngine::Data'
+  c:\program files (x86)\intelswtools\openvino_2019.1.148\deployment_tools\inference_engine\include\ie_common.h(40): note: see declaration of 'std::weak_ptr<InferenceEngine::CNNLayer>'
+c:\program files (x86)\intelswtools\openvino_2019.1.148\deployment_tools\inference_engine\include\ie_data.h(53): warning C4251: 'InferenceEngine::Data::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'InferenceEngine::Data'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\program files (x86)\intelswtools\openvino_2019.1.148\deployment_tools\inference_engine\include\ie_data.h(59): warning C4251: 'InferenceEngine::Data::inputTo': class 'std::map<std::string,InferenceEngine::CNNLayerPtr,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'InferenceEngine::Data'
+          with
+          [
+              _Kty=std::string,
+              _Ty=InferenceEngine::CNNLayerPtr
+          ]
+  c:\program files (x86)\intelswtools\openvino_2019.1.148\deployment_tools\inference_engine\include\ie_data.h(59): note: see declaration of 'std::map<std::string,InferenceEngine::CNNLayerPtr,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=std::string,
+              _Ty=InferenceEngine::CNNLayerPtr
+          ]
+C:\Program Files (x86)\IntelSWTools\openvino_2019.1.148\deployment_tools\inference_engine\samples\common\samples/common.hpp(517): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Program Files (x86)\IntelSWTools\openvino_2019.1.148\deployment_tools\inference_engine\samples\common\samples/common.hpp(518): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Program Files (x86)\IntelSWTools\openvino_2019.1.148\deployment_tools\inference_engine\samples\common\samples/common.hpp(520): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Program Files (x86)\IntelSWTools\openvino_2019.1.148\deployment_tools\inference_engine\samples\common\samples/common.hpp(521): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Program Files (x86)\IntelSWTools\openvino_2019.1.148\deployment_tools\inference_engine\samples\common\samples/common.hpp(967): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+d:\myproject\vs2015\openvino_test\eigen\eigen\src/Core/arch/CUDA/Half.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+d:\myproject\vs2015\openvino_test\openvino_test\ThirdPartyUtil.h(29): warning C4091: 'static ': ignored on left of 'ThirdPartyUtil' when no variable is declared
+d:\myproject\vs2015\openvino_test\openvino_test\HumanLib.h(17): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  Generating code
+  75 of 5206 functions ( 1.4%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    12 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  openvino_test.vcxproj -> D:\myproject\vs2015\openvino_test\x64\Release\openvino_test.exe
+  openvino_test.vcxproj -> D:\myproject\vs2015\openvino_test\x64\Release\openvino_test.pdb (Full PDB)

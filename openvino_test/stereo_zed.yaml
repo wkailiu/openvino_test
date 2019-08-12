@@ -1,0 +1,59 @@
+%YAML:1.0
+
+# ZED 2019-06-13
+# HumanPose3D
+#--------------------------------------------------------------------------------------------
+# Camera Parameters. Adjust them!
+#--------------------------------------------------------------------------------------------
+
+title: "stereo"
+Stereo.openId: 0
+#Stereo.width: 1344
+#Stereo.height: 376
+Stereo.width: 2560
+Stereo.height: 720
+Stereo.LEFT.K: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data:[   704.300780998648,   0.0,                674.830732628436,
+            0.0,                704.867045336999,   370.319124637073,
+            0.0,                0.0,                1.0]
+
+Stereo.LEFT.T: !!opencv-matrix
+   rows: 4
+   cols: 4
+   dt: d
+   data:[   1.0, 0.0, 0.0, -6.0,
+            0.0, 1.0, 0.0, 0.0,
+            0.0, 0.0, 1.0, 0.0,
+            0.0, 0.0, 0.0, 1.0]
+
+Stereo.LEFT.Distortion: !!opencv-matrix
+   rows: 1
+   cols: 5
+   dt: d
+   data:[-0.175916684177487, 0.0278251920602998, 0.0, 0.0, 0.0]
+
+Stereo.RIGHT.K: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data:[   699.815765228645,   0.0,                650.872037793791,
+            0.0,                699.809359042247,   360.307665841954,
+            0.0,                0.0,                1.0]
+Stereo.RIGHT.T: !!opencv-matrix
+   rows: 4
+   cols: 4
+   dt: d
+   data:[   1.0, 0.0, 0.0, 6.0,
+            0.0, 1.0, 0.0, 0.0,
+            0.0, 0.0, 1.0, 0.0,
+            0.0, 0.0, 0.0, 1.0]
+Stereo.RIGHT.Distortion: !!opencv-matrix
+   rows: 1
+   cols: 5
+   dt: d
+   data:[-0.175167979264270, 0.0280457661790909, 0.0, 0.0, 0.0]
+
+

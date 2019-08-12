@@ -1,0 +1,36 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckIncludeFiles.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindOpenGL.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/Platform/WindowsPaths.cmake
+D:/Ceres/freeglut-3.0.0/CMakeLists.txt
+D:/Ceres/freeglut-3.0.0/build/CMakeFiles/3.14.0-rc3/CMakeCCompiler.cmake
+D:/Ceres/freeglut-3.0.0/build/CMakeFiles/3.14.0-rc3/CMakeCXXCompiler.cmake
+D:/Ceres/freeglut-3.0.0/build/CMakeFiles/3.14.0-rc3/CMakeRCCompiler.cmake
+D:/Ceres/freeglut-3.0.0/build/CMakeFiles/3.14.0-rc3/CMakeSystem.cmake
+D:/Ceres/freeglut-3.0.0/config.h.in
+D:/Ceres/freeglut-3.0.0/freeglut.pc.in
+D:/Ceres/freeglut-3.0.0/freeglut.rc.in
+D:/Ceres/freeglut-3.0.0/src/fg_version.h.in

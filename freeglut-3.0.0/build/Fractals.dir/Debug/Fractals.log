@@ -1,0 +1,5 @@
+﻿  Building Custom Rule D:/Ceres/freeglut-3.0.0/CMakeLists.txt
+  CMake does not need to re-run because D:/Ceres/freeglut-3.0.0/build/CMakeFiles/generate.stamp is up-to-date.
+  fractals.c
+  Fractals.vcxproj -> D:\Ceres\freeglut-3.0.0\build\bin\Debug\Fractalsd.exe
+  Fractals.vcxproj -> D:/Ceres/freeglut-3.0.0/build/bin/Debug/Fractalsd.pdb (Full PDB)

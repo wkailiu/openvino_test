@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{43CDBDDC-4DCA-3D19-AD92-F05837A1A31D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Ceres\freeglut-3.0.0\src;D:\Ceres\freeglut-3.0.0\include;D:\Ceres\freeglut-3.0.0\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Ceres\freeglut-3.0.0\src;D:\Ceres\freeglut-3.0.0\include;D:\Ceres\freeglut-3.0.0\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Ceres\freeglut-3.0.0\src;D:\Ceres\freeglut-3.0.0\include;D:\Ceres\freeglut-3.0.0\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Ceres\freeglut-3.0.0\src;D:\Ceres\freeglut-3.0.0\include;D:\Ceres\freeglut-3.0.0\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Ceres\freeglut-3.0.0\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Ceres/freeglut-3.0.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Ceres/freeglut-3.0.0 -BD:/Ceres/freeglut-3.0.0/build --check-stamp-file D:/Ceres/freeglut-3.0.0/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/Ceres/freeglut-3.0.0/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;D:\Ceres\freeglut-3.0.0\CMakeLists.txt;D:\Ceres\freeglut-3.0.0\build\CMakeFiles\3.14.0-rc3\CMakeCCompiler.cmake;D:\Ceres\freeglut-3.0.0\build\CMakeFiles\3.14.0-rc3\CMakeCXXCompiler.cmake;D:\Ceres\freeglut-3.0.0\build\CMakeFiles\3.14.0-rc3\CMakeRCCompiler.cmake;D:\Ceres\freeglut-3.0.0\build\CMakeFiles\3.14.0-rc3\CMakeSystem.cmake;D:\Ceres\freeglut-3.0.0\config.h.in;D:\Ceres\freeglut-3.0.0\freeglut.pc.in;D:\Ceres\freeglut-3.0.0\freeglut.rc.in;D:\Ceres\freeglut-3.0.0\src\fg_version.h.in;D:\Ceres\freeglut-3.0.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Ceres\freeglut-3.0.0\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Ceres/freeglut-3.0.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Ceres/freeglut-3.0.0 -BD:/Ceres/freeglut-3.0.0/build --check-stamp-file D:/Ceres/freeglut-3.0.0/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/Ceres/freeglut-3.0.0/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;D:\Ceres\freeglut-3.0.0\CMakeLists.txt;D:\Ceres\freeglut-3.0.0\build\CMakeFiles\3.14.0-rc3\CMakeCCompiler.cmake;D:\Ceres\freeglut-3.0.0\build\CMakeFiles\3.14.0-rc3\CMakeCXXCompiler.cmake;D:\Ceres\freeglut-3.0.0\build\CMakeFiles\3.14.0-rc3\CMakeRCCompiler.cmake;D:\Ceres\freeglut-3.0.0\build\CMakeFiles\3.14.0-rc3\CMakeSystem.cmake;D:\Ceres\freeglut-3.0.0\config.h.in;D:\Ceres\freeglut-3.0.0\freeglut.pc.in;D:\Ceres\freeglut-3.0.0\freeglut.rc.in;D:\Ceres\freeglut-3.0.0\src\fg_version.h.in;D:\Ceres\freeglut-3.0.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Ceres\freeglut-3.0.0\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Ceres/freeglut-3.0.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Ceres/freeglut-3.0.0 -BD:/Ceres/freeglut-3.0.0/build --check-stamp-file D:/Ceres/freeglut-3.0.0/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/Ceres/freeglut-3.0.0/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;D:\Ceres\freeglut-3.0.0\CMakeLists.txt;D:\Ceres\freeglut-3.0.0\build\CMakeFiles\3.14.0-rc3\CMakeCCompiler.cmake;D:\Ceres\freeglut-3.0.0\build\CMakeFiles\3.14.0-rc3\CMakeCXXCompiler.cmake;D:\Ceres\freeglut-3.0.0\build\CMakeFiles\3.14.0-rc3\CMakeRCCompiler.cmake;D:\Ceres\freeglut-3.0.0\build\CMakeFiles\3.14.0-rc3\CMakeSystem.cmake;D:\Ceres\freeglut-3.0.0\config.h.in;D:\Ceres\freeglut-3.0.0\freeglut.pc.in;D:\Ceres\freeglut-3.0.0\freeglut.rc.in;D:\Ceres\freeglut-3.0.0\src\fg_version.h.in;D:\Ceres\freeglut-3.0.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Ceres\freeglut-3.0.0\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Ceres/freeglut-3.0.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Ceres/freeglut-3.0.0 -BD:/Ceres/freeglut-3.0.0/build --check-stamp-file D:/Ceres/freeglut-3.0.0/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/Ceres/freeglut-3.0.0/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;D:\Ceres\freeglut-3.0.0\CMakeLists.txt;D:\Ceres\freeglut-3.0.0\build\CMakeFiles\3.14.0-rc3\CMakeCCompiler.cmake;D:\Ceres\freeglut-3.0.0\build\CMakeFiles\3.14.0-rc3\CMakeCXXCompiler.cmake;D:\Ceres\freeglut-3.0.0\build\CMakeFiles\3.14.0-rc3\CMakeRCCompiler.cmake;D:\Ceres\freeglut-3.0.0\build\CMakeFiles\3.14.0-rc3\CMakeSystem.cmake;D:\Ceres\freeglut-3.0.0\config.h.in;D:\Ceres\freeglut-3.0.0\freeglut.pc.in;D:\Ceres\freeglut-3.0.0\freeglut.rc.in;D:\Ceres\freeglut-3.0.0\src\fg_version.h.in;D:\Ceres\freeglut-3.0.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Ceres\freeglut-3.0.0\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Ceres\freeglut-3.0.0\build\ZERO_CHECK.vcxproj">
+      <Project>{46E848EE-08AB-37A0-AE48-0C97EBE3E329}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Ceres\freeglut-3.0.0\build\CallbackMaker.vcxproj">
+      <Project>{0049EBC5-886C-3E1A-9309-81AC7F0457CF}</Project>
+      <Name>CallbackMaker</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Ceres\freeglut-3.0.0\build\CallbackMaker_static.vcxproj">
+      <Project>{AF5BEAA8-D418-3170-9610-1745D8C27D12}</Project>
+      <Name>CallbackMaker_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Ceres\freeglut-3.0.0\build\Fractals.vcxproj">
+      <Project>{50964477-52FB-33CD-A0AE-DC4ACB06C525}</Project>
+      <Name>Fractals</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Ceres\freeglut-3.0.0\build\Fractals_random.vcxproj">
+      <Project>{FCEC730E-DD1B-3BD1-B61F-EBAF31E6CB94}</Project>
+      <Name>Fractals_random</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Ceres\freeglut-3.0.0\build\Fractals_random_static.vcxproj">
+      <Project>{E47475B7-9C4F-3846-A967-19F8C8899B30}</Project>
+      <Name>Fractals_random_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Ceres\freeglut-3.0.0\build\Fractals_static.vcxproj">
+      <Project>{6711A2FD-421A-3049-84A7-4B16A74D98B1}</Project>
+      <Name>Fractals_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Ceres\freeglut-3.0.0\build\Lorenz.vcxproj">
+      <Project>{6ED28E55-2563-3BDC-86E9-595B307C4016}</Project>
+      <Name>Lorenz</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Ceres\freeglut-3.0.0\build\Lorenz_static.vcxproj">
+      <Project>{47A86025-BB40-3767-870B-BF51B4092FD5}</Project>
+      <Name>Lorenz_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Ceres\freeglut-3.0.0\build\One.vcxproj">
+      <Project>{3224DDDA-4180-35F7-837A-B86E753D61C3}</Project>
+      <Name>One</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Ceres\freeglut-3.0.0\build\One_static.vcxproj">
+      <Project>{446D5A5B-1236-3B34-A632-F9F5329526B0}</Project>
+      <Name>One_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Ceres\freeglut-3.0.0\build\Resizer.vcxproj">
+      <Project>{1FC2B5A1-5A70-3A40-A3A4-95FCF9829DE1}</Project>
+      <Name>Resizer</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Ceres\freeglut-3.0.0\build\Resizer_static.vcxproj">
+      <Project>{A94AA0DA-072B-3E0A-A43C-E5AD99ABC845}</Project>
+      <Name>Resizer_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Ceres\freeglut-3.0.0\build\freeglut.vcxproj">
+      <Project>{50A92B87-CE50-35F3-AB3F-C9060E07F451}</Project>
+      <Name>freeglut</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Ceres\freeglut-3.0.0\build\freeglut_static.vcxproj">
+      <Project>{B891209C-0FEE-34F4-8C03-61AB9EB9DDF2}</Project>
+      <Name>freeglut_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Ceres\freeglut-3.0.0\build\multi-touch.vcxproj">
+      <Project>{9D507773-A022-3B5B-A0BA-5B96DA332BD8}</Project>
+      <Name>multi-touch</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Ceres\freeglut-3.0.0\build\multi-touch_static.vcxproj">
+      <Project>{0E191E68-E7D9-3672-ABD4-EAE10D452B39}</Project>
+      <Name>multi-touch_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Ceres\freeglut-3.0.0\build\shapes.vcxproj">
+      <Project>{DE9A4A51-0AC1-336B-AA5B-7D7869573808}</Project>
+      <Name>shapes</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Ceres\freeglut-3.0.0\build\shapes_static.vcxproj">
+      <Project>{015C2D12-F328-3695-B025-8C2A12654DF0}</Project>
+      <Name>shapes_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Ceres\freeglut-3.0.0\build\smooth_opengl3.vcxproj">
+      <Project>{B39BB56B-3A74-3392-87A7-0A263BE54AC4}</Project>
+      <Name>smooth_opengl3</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Ceres\freeglut-3.0.0\build\smooth_opengl3_static.vcxproj">
+      <Project>{C2169651-3DAF-3E69-8AC8-A6268B745B98}</Project>
+      <Name>smooth_opengl3_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Ceres\freeglut-3.0.0\build\subwin.vcxproj">
+      <Project>{299356D4-D71A-3C6C-BBDC-1F5F05923D10}</Project>
+      <Name>subwin</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Ceres\freeglut-3.0.0\build\subwin_static.vcxproj">
+      <Project>{FFF67127-FF73-3288-918C-957A11AFF652}</Project>
+      <Name>subwin_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Ceres\freeglut-3.0.0\build\timer.vcxproj">
+      <Project>{201C8392-1FA3-3EE1-91A0-385DD180AA84}</Project>
+      <Name>timer</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Ceres\freeglut-3.0.0\build\timer_static.vcxproj">
+      <Project>{79BF997E-99AB-3936-890B-D53BA0BF7AB0}</Project>
+      <Name>timer_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
