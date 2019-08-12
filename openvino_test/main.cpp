@@ -21,6 +21,7 @@ int main(int argc, char* argv[]) {
 	StereoCamera stereo("stereo_zed.yaml");
 	manager.addStereoCamera(&stereo);
 
+
 	FreeglutUI::initWindows("HumanPose3D", 800, 600);
 	FreeglutUI::setCameraView(*stereo.getLeftCameraPtr());
 
