@@ -1,3 +1,7 @@
 
 *.obj
 *.obj
+*.obj
+*.obj
+openvino_test/x64/Release/BodyNode.obj
+openvino_test/x64/Release/BaseCamera.obj
