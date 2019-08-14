@@ -10,3 +10,4 @@ openvino_test/x64/Release/BaseCamera.obj
 openvino_test/x64/Release/BodyNode.obj
 openvino_test/x64/Release/BodyParameter.obj
 openvino_test/x64/Release/CameraManager.obj
+*.obj
